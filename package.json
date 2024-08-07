@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://bam-j.github.io/portfolio/",
+  "homepage": "https://junhyeong9812.github.io/JunPortP/",
   "eslintConfig": {
     "extends": [
       "react-app",
