@@ -1,18 +1,17 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import Potfolio_form from "./main/js/potfolio_form";
 
 function App() {
   return (
     <>
-      <div className="App">
-        <Routes>
-          <Route
-            path="/JunPortP"
-            element={<Potfolio_form></Potfolio_form>}
-          ></Route>
-        </Routes>
-      </div>
+      <Router basename="/JunPortP">
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Potfolio_form />} />
+          </Routes>
+        </div>
+      </Router>
     </>
   );
 }
